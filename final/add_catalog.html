@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thêm danh mục</title>
+    <link href="./img/2.png" rel="icon">
+    <link rel="stylesheet" href="./css/add.css">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.css'>
+    <script src='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.min.js'></script>
+
+</head>
+
+<body>
+
+
+    <div id="contact-form">
+        <div class="add">
+            <h1>Thêm danh mục</h1>
+            <hr class="line">
+        </div>
+        <p id="failure">Oopsie...message not sent.</p>
+        <p id="success">Your message was sent successfully. Thank you!</p>
+
+        <form method="post" action="/">
+            <div>
+                <label for="email">
+                  <span>Id</span>
+                  <input style="opacity: 0.8;" class="_input" disabled = "disabled" type="number" id="iddm" name="" value="" placeholder="auto"  />
+                </label>
+            </div>
+            <div>
+                <label for="subject">
+                <span>Tên danh mục </span>
+                <input class="_input" type="text" id="namedm" name="" value="" placeholder=""  />
+                </label>
+            </div>
+            <div class="_submit">
+                <button class="_add" name="submit" id="submit">Thêm</button>
+                <button class="_list" name="submit" id="submit"><a href="list_category.html">Danh sách</a></button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="./js/admin/addcata.js"></script>
+</body>
+
+</html>

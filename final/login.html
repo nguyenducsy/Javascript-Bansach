@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tài khoản</title>
+    <link href="./img/2.png" rel="icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/load.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body class="preloading">
+
+    <div class="load">
+        <img src="./img/loading.gif">
+    </div>
+    <!-- form register-->
+    <div id="user_login" class="container">
+        <div class="frame">
+            <div class="nav">
+                <ul class="links">
+                    <li class="signin-active"><a class="btn">Đăng nhập</a></li>
+                    <li class="signup-inactive"><a class="btn">Đăng ký </a></li>
+                </ul>
+                <div class="box_logo"><img src="" alt=""></div>
+            </div>
+            <div ng-app ng-init="checked = false">
+                <form action="" class="form-signin" method="post" name="form" autocomplete="off">
+                    <label for="username">Tên người dùng</label>
+                    <input class="form-styling" id="name" type="text" name="username" placeholder="" />
+                    <label for="password">Mật khẩu</label>
+                    <input class="form-styling" type="password" name="password" placeholder="" />
+                    <br>
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"><span class="ui"></span>Nhớ lần đăng nhập này </label>
+                    <div class="btn-animate">
+                        <a class="btn-signin">Đăng nhập</a>
+                    </div>
+                    <a href="">
+                        <div id='facebook' class='button'>Facebook
+                            <div class='cover facebook'>
+                                <li style="font-size: 1.5rem;" class="fa fa-facebook fa-2x"></li>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id='google' class='button'>Google+
+                            <div class='cover google'>
+                                <li style="font-size: 1.5rem;" class="fa fa-google-plus fa-2x"></li>
+                            </div>
+                        </div>
+                    </a>
+                </form>
+
+                <!-- form login-->
+                <form class="form-signup" action="" method="post" name="form">
+                    <label for="fullname">Tên người dùng</label>
+                    <input class="form-styling" type="text" name="fullname" id="fullname" placeholder="" />
+                    <label for="email">Email</label>
+                    <input class="form-styling" type="text" name="email" placeholder="" />
+                    <label for="password">Mật khẩu</label>
+                    <input class="form-styling" type="text" name="password" placeholder="" />
+                    <label for="confirmpassword">Xác nhận mật khẩu</label>
+                    <input class="form-styling" type="text" name="confirmpassword" placeholder="" />
+                    <a ng-click="checked = !checked" class="btn-signup">Đăng ký</a>
+                </form>
+
+                <div class="success">
+
+                </div>
+            </div>
+
+            <div class="forgot">
+                <a href="#">Quên mật khẩu?</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js/login.js"></script>
+<script src="./js/load.js"></script>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thêm sản phẩm</title>
+    <link href="./img/2.png" rel="icon">
+    <link rel="stylesheet" href="./css/add.css">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.css'>
+    <script src='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.min.js'></script>
+
+
+</head>
+
+<body>
+
+    <div id="contact-form">
+        <div class="add">
+            <h1>Thêm sản phẩm</h1>
+            <hr class="line">
+        </div>
+        <p id="failure">Oopsie...message not sent.</p>
+        <p id="success">Your message was sent successfully. Thank you!</p>
+
+        <form method="post" action="/" enctype="multipart/form-data">
+            <div>
+                <label for="name">
+                  <span >Tên sản phẩm</span> 
+                  <input class="_input" type="text" id="namesp" name="name" value="" placeholder=""  />
+                </label>
+            </div>
+            <div>
+                <label for="email">
+                  <span>Tác giả</span>
+                  <input class="_input" type="text" id="tacgia"  value=""  />
+                </label>
+            </div>
+            <div>
+                <label for="subject">
+                <span>Danh mục </span>
+                  <select id="subject" name="subject" tabindex="4">   
+                     <option value="1">Sách nói</option>  
+                     <option value="2">Linh dị</option>
+                     <option value="3">Kinh doanh</option>
+                     <option value="4">Ngôn tình</option>
+                     <option value="5">Kỹ năng</option>
+                     <option value="6">Tác phẩm kinh điển</option>
+                     <option value="7">Chăm sóc gia đình</option>
+                  </select>
+                </label>
+            </div>
+            <div>
+                <label for="email">
+                  <span>Giá</span>
+                  <input class="_input" type="number" id="giasp" name="gia" value="" placeholder="" />
+                </label>
+            </div>
+
+            <span>Hình</span>
+            <input type="file" id="imgsp">
+
+            <div class="_submit">
+                <button class="_add" name="submit" id="submit">Thêm</button>
+                <button class="_list" name="submit" type="submit" id="submit"><a href="list_products.html">Danh sách</a></button>
+            </div>
+
+        </form>
+
+    </div>
+    <script src="./js/admin/addpro.js"></script>
+    <script src="./js/admin/product.js"></script>
+</body>
+
+
+
+</html>

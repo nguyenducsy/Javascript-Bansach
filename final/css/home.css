@@ -1,0 +1,87 @@
+.mr {
+    margin-right: 18px;
+}
+
+.tabfree li a {
+    text-decoration: none;
+    width: 50px;
+}
+
+.tabfree li {
+    width: 20%;
+    float: left;
+    list-style: none
+}
+
+.tabfree {
+    width: 55%;
+    float: left;
+    margin-left: 28%;
+    min-height: 50px;
+}
+
+.tabfree li a {
+    float: left;
+    text-align: center;
+    width: 70px;
+    margin-top: 25px;
+    color: black;
+    margin-right: 11px;
+    font-size: 10pt;
+    list-style: none;
+}
+
+.tabfree li a:hover {
+    color: #3c9785;
+}
+
+.tabfree .sachnoi {
+    float: left;
+    text-align: right;
+    margin-right: 0px;
+    width: 60px;
+}
+
+.tabfree .all {
+    color: #3c9785;
+}
+
+.boxdanhmuc li a {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.noidungg {
+    position: none;
+}
+
+.ml2 {
+    margin-left: 215px;
+}
+
+.ml3 {
+    margin-left: 430px;
+}
+
+.ml4 {
+    margin-left: 645px;
+}
+
+.ml5 {
+    margin-top: 360px;
+}
+
+.ml6 {
+    margin-top: 360px;
+    margin-left: 215px;
+}
+
+.ml7 {
+    margin-top: 360px;
+    margin-left: 430px;
+}
+
+.ml8 {
+    margin-top: 360px;
+    margin-left: 645px;
+}

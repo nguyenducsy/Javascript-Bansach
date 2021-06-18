@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quản lý danh mục</title>
+    <link href="./img/2.png" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="./css/addmin.css">
+    <link rel="stylesheet" href="./css/load.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <script src="./chart-master/Chart.js"></script>
+    <!-- <link href="./css/style.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/style-responsive.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+<body class="preloading">
+
+    <div class="load">
+        <img src="./img/loading.gif">
+    </div>
+
+    <div class="box_content">
+        <div class="box_head">
+            <div class="box_menu"><i class="fa fa-reorder" style="font-size:24px"></i></div>
+            <div class="box_logo"><a href="index.html"><strong>WAK<span>A</span>DMIN</strong></a> </div>
+            <div class="box_note">
+                <li>
+                    <a href='#'> <i class='fas fa-envelope' style='font-size:23px;color:rgb(138, 138, 138)'></i></a>
+                    <div class='badge'><span>2</span></div>
+
+                </li>
+                <li>
+                    <a href='#'> <i class='fas fa-bell' style='font-size:23px;color:rgb(138, 138, 138)'></i></a>
+                    <div class='badge'><span>2</span></div>
+                </li>
+                <li>
+                    <a href='#'> <i class='fas fa-comment-dots' style='font-size:23px;color:rgb(138, 138, 138)'></i></a>
+                    <div class='badge'><span>5</span></div>
+                </li>
+            </div>
+            <!-- <div class="box_set"><a href=""><i class="fas fa-cog fa-spin"></i></a></div> -->
+            <div class="box_logout"><span> <a href="">Logout</a> <i class="fas fa-power-off"  style="font-size: 14px;color: rgb(34, 63, 61);"></i></span></div>
+            <!-- <div class="box_flag"><img src="img/av1.jpg" alt=""></div> -->
+        </div>
+        <div class="box_left">
+
+            <div id="sidebar" class="nav-collapse">
+                <!-- sidebar menu start-->
+                <ul class="sidebar-menu" id="nav-accordion">
+                    <p class="centered">
+                        <a href="profile.html"><img src="./img/3.png" class="img-circle" width="80"></a>
+                    </p>
+                    <h5 style="margin-top: 20px;font-size:20px" class="centered">Đức Sỹ</h5>
+                    <li class="mt">
+                        <a href="admin.html">
+                            <i class="fa fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="javascript:;">
+                            <i class="fa fa-desktop"></i>
+                            <span>UI Elements</span>
+                        </a>
+                        <ul class="sub">
+                            <li><a href="general.html">General</a></li>
+                            <li><a href="buttons.html">Buttons</a></li>
+                            <li><a href="panels.html">Panels</a></li>
+                            <li><a href="font_awesome.html">Font Awesome</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Quản lý danh mục</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="list_category.html">Home</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="add_catalog.html">Thêm mới</a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="admin.php?act=product" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span>Quản lý sản phẩm</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="list_products.html">Home</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="add_products.html">Thêm mới</a>
+
+                        </div>
+                    </li>
+
+                    <li class="sub-menu">
+                        <a class="" href="mn_order.html">
+                            <i class="fa fa-box"></i>
+                            <span>Đơn hàng</span>
+                        </a>
+                        <ul class="sub">
+                            <li><a href="form_component.html">Form Components</a></li>
+                            <li class="active"><a href="advanced_form_components.html">Advanced Components</a></li>
+                            <li><a href="form_validation.html">Form Validation</a></li>
+                            <li><a href="contactform.html">Contact Form</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="mn_account.html">
+                            <i class="fa fa-user-circle"></i>
+                            <span>Quản lý tài khoản</span>
+                        </a>
+                        <ul class="sub">
+                            <li><a href="basic_table.html">Basic Table</a></li>
+                            <li><a href="responsive_table.html">Responsive Table</a></li>
+                            <li><a href="advanced_table.html">Advanced Table</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="inbox.html">
+                            <i class="fa fa-envelope"></i>
+                            <span>Mail </span>
+                            <span class="label label-theme pull-right mail-info">2</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="admin.php?act=thongke" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class=" fa fa-bar-chart-o"></i>
+                            <span>Charts</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="admin.php?act=thongke">Home</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="admin.php?act=thongke&ctrl=chart">Chart</a>
+                        </div>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="javascript:;">
+                            <i class='fas fa-comment-dots'></i>
+                            <span>Bình luận</span>
+                        </a>
+                        <ul class="sub">
+                            <li><a href="lobby.html">Lobby</a></li>
+                            <li><a href="chat_room.html"> Chat Room</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="box_center">
+            <form action="#" method="post">
+                <div class="card mt-3">
+                    <div class="card-header">
+                        DANH MỤC > HOME
+                    </div>
+
+                    <div class="card-body">
+                        <table class="table table-striped table">
+                            <thead>
+                                <tr style="background-color: #24a282;">
+                                    <th scope="col">#</th>
+                                    <th scope="col">Tên</th>
+                                    <th scope="col">Số lượng sản phẩm</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="rowcate">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+        </section>
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/admin/catalog.js"></script>
+</body>
+<script src="./js/load.js"></script>z
+
+</html>

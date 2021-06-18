@@ -1,0 +1,206 @@
+/* General Styles */
+
+html {
+    background: url(https://i.pinimg.com/564x/70/79/48/70794809ac1ad01280d5b30860d7829d.jpg) no-repeat;
+    background-size: cover;
+    height: 20%;
+    background-color: rgb(252, 252, 252);
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    color: #C0C0C0;
+    font-family: Arial, san-serif;
+}
+
+
+/* Contact Form Styles */
+
+h1 {
+    margin: 10px 0 0 0;
+    font-size: 2.5rem;
+}
+
+h4 {
+    margin: 0 0 20px 0;
+}
+
+.add {
+    text-align: center;
+    padding: 20px 10px;
+    color: white;
+}
+
+#contact-form {
+    background-color: rgba(72, 72, 72, 0.507);
+    padding: 10px 20px 30px 20px;
+    max-width: 100%;
+    float: left;
+    left: 50%;
+    width: 30%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -200px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+
+.line {
+    height: 1px;
+    opacity: 0.2;
+    background: white;
+    height: 0.5px;
+    border: none;
+}
+
+input {
+    border-radius: 100px;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+    font-size: 15px;
+    margin-bottom: 2px;
+    font-family: Arial, san-serif;
+}
+
+#contact-form textarea {
+    border-radius: 5px;
+}
+
+#contact-form ._submit {
+    margin-top: 20px;
+}
+
+#contact-form ._input,
+#contact-form select {
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 100px;
+    border: none;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+#contact-form input:hover {
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+    background-color: #E5E6E7;
+}
+
+#contact-form textarea {
+    width: 100%;
+    height: 150px;
+}
+
+#contact-form ._list {
+    background: rgb(29, 87, 153);
+    opacity: 1;
+    text-decoration: none;
+}
+
+#contact-form ._list:hover {
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+#contact-form ._add {
+    background: #9C215A;
+    opacity: 1;
+}
+
+#contact-form ._add:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+#contact-form button a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#contact-form button {
+    cursor: pointer;
+    width: 30%;
+    border: none;
+    margin: 0 0 5px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 13%;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#contact-form button[type="submit"]:hover {
+    opacity: 0.8;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact-form button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+input:required,
+textarea:required {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+}
+
+#contact-form .required {
+    font-weight: bold;
+    color: #E5E6E7;
+}
+
+#contact-form span {
+    color: white;
+}
+
+
+/* Hide success/failure message
+    (especially since the php is missing) */
+
+#failure,
+#success {
+    color: #6EA070;
+    display: none;
+}
+
+
+/* Make form look nice on smaller screens */
+
+@media only screen and (max-width: 580px) {
+    #contact-form {
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}

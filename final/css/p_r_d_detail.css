@@ -1,0 +1,88 @@
+.boxnoidung {
+    width: 70%;
+    min-height: 500px;
+    float: left;
+    background-color: whitesmoke;
+}
+
+.lienquan iframe {
+    float: left;
+    width: calc(30% - 20px);
+    min-height: 500px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+}
+
+.boximg {
+    float: left;
+    width: 240px;
+    min-height: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.boximg img {
+    box-shadow: rgba(128, 128, 128, 0.301) 0px 0 10px 6px;
+}
+
+.xephang {
+    float: left;
+    width: 35%;
+    clear: both;
+    color: rgb(87, 87, 87);
+    margin-top: -100px;
+    min-height: 50px;
+    margin-left: 0px;
+}
+
+.boxcontent {
+    float: left;
+    width: 62%;
+    text-align: left;
+    font-size: 10pt;
+    line-height: 25px;
+    margin-left: 40px;
+    min-height: 500px;
+}
+
+.boxcontent .muasach {
+    float: left;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 11pt;
+    color: white;
+    background-color: #3c9785;
+    border-radius: 5px;
+}
+
+.boxcontent .muasach:hover {
+    background-color: #2d6e61;
+    transition: 0.7s;
+}
+
+.boxcontent .tomtat {
+    clear: both;
+}
+
+.boxcontent .tieude {
+    font-size: 15pt;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.boxcontent .timdoc a {
+    text-decoration: none;
+    color: #007FFF;
+}
+
+.boxcontent ul {
+    list-style: none;
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -40px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Đơn hàng</title>
+    <link href="./img/2.png" rel="icon">
+    <link rel="stylesheet" href="./css/waka.css">
+    <link rel="stylesheet" href="./css/order.css">
+    <link rel="stylesheet" href="./css/load.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.css'>
+    <script src='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body class="preloading">
+
+    <div class="load">
+        <img src="./img/loading.gif">
+    </div>
+    <header>
+        <div class="container">
+            <div class="heaad">
+                <div class="dau">
+                    <div class="boxlogo"><img src="img/logo-waka.png" alt=""></div>
+                    <div class="search">
+                        <input type="text" placeholder="Nhập tên sách , tuyển tập , tác giả ,...">
+                        <button id="btn_search"> <i class="fa fa-search"></i><span>Tìm kiếm</span></button>
+
+                    </div>
+                    <div class="vip"><img src="img/logo-waka.png" alt=""> <strong>VIP</strong></div>
+                    <div class="dangnhap">
+                        <button><a style="text-decoration: none;color: white;" href="admin.html">ADMIN</a></button>
+                    </div>
+                    <div class="dangnhap">
+                        <button>ĐĂNG NHẬP</button>
+                    </div>
+                    <div class="cart"><i class="fas fa-shopping-cart"><a href="order.html"></a> <span class="cou_sp"></span> </i></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="product.html">Sản phẩm</a></li>
+                        <li class="baochi"><a href="orderdetail.html">Kiểm tra đơn hàng</a></li>
+                        <li><a href="index.html">Toàn cảnh Waka</a></li>
+                        <li class="tuyendung"><a href="index.html">Tuyển dụng</a></li>
+                        <li class="diendan"><a href="index.html">Diễn đàn</a></li>
+                    </ul>
+                    <div class="new"><strong>NEW</strong></div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-px-0" style="width: 70%;margin-left: 15%;">
+        <div class="lead"></div>
+        <div class="cartt">
+            ĐƠN HÀNG <span></span> (<span class="cou_order"></span>)</span>
+        </div>
+        <div class="content-pay">
+            <div class="seperate-left" style="width: 100%;">
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <section>
+        <div class="nhagiakim ">
+            <nav>_NHÀ GIẢ KIM, PAULO COELHO_</nav>
+            <s>"</s>
+            <p>Dường như ai cũng thông thạo đường đời của người khác , nhưng chẳng nhìn ra con đường của chính mình</p>
+        </div>
+    </section>
+    <footer>
+        <div class="tthi">
+            <div class="tt">THÔNG TIN HỮU ÍCH</div>
+            <a href="#">Review truyện – Café sách</a>
+            <a href="#">Tin waka</a>
+            <a href="#">Giới thiệu chung</a>
+            <a href="#">Thỏa thuận sử dụng dịch vụ</a>
+            <a href="#">Lendbox.vn</a>
+            <div class="lg"><img src="./img/footer/logo-waka.png" alt=""></div>
+            <p>© Waka Corporation</p>
+        </div>
+        <div class="ttlh">
+            <div class="tt">THÔNG TIN LIÊN HỆ</div>
+            <div class="company">Công ty Cổ Phần Waka (Waka Corporation) - Tầng 3, tháp văn phòng quốc tế Hòa Bình, số 106, đường Hoàng Quốc Việt, phường Nghĩa Đô, quận Cầu Giấy, thành phố Hà Nội</div>
+            <div class="company">ĐKKD số 0108796796 do SKHĐT TP Hà Nội cấp ngày 24/06/2019 | Chịu trách nhiệm nội dung: Ông Đinh Quang Hoàng</div>
+            <div class="company">Email: support@waka.vn | Tel: 024.37918440</div>
+            <div class="company">Giấy xác nhận Đăng ký hoạt động phát hành xuất bản phẩm điện tử số 8132/XN-CXBIPH do Cục Xuất bản, In và Phát hành cấp ngày 31/12/2019</div>
+            <div class="iconfb"><i class="fa fa-facebook-f" style="font-size:15px"></i></div>
+            <div style="margin-left: 250px;" class="logobct"><img src="./img/footer/bo-cong-thuong.png" alt=""></div>
+            <div class="logobct"><img src="./img/footer/3.png" alt=""></div>
+        </div>
+        <div class="uddd">
+            <div class="tt">ỨNG DỤNG DI ĐỘNG</div>
+            <div class="qr"><img src="./img/footer/android-qr.png" alt=""></div>
+            <div class="tet">Hệ điều hành Android <br>Phiên bản ứng dụng: 7.4 <br>Ngày đăng: 06/12/2019</div>
+            <div class="qr"><img src="./img/footer/ios-qr.png" alt=""></div>
+            <div class="tet">Hệ điều hành IOS <br> Phiên bản ứng dụng: 7.4 <br> Ngày đăng: 04/12/2019</div>
+            <div class="logodma"><img src="./img/footer/bo-cong-thuong.png" alt=""></div>
+            <script>
+            </script>
+        </div>
+    </footer>
+</body>
+
+<script src="./js/orderdetail.js"></script>
+<script src="./js/load.js"></script>
+
+</html>

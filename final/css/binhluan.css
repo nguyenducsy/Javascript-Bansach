@@ -1,0 +1,73 @@
+.lienquan nav {
+    color: #444444;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 10pt;
+}
+
+.lienquan nav img {
+    width: 10%;
+    float: left;
+    border-radius: 50%;
+    margin-top: -10px;
+    padding: 0px 10px;
+}
+
+.lienquan ins {
+    text-decoration: none;
+    font-size: 10pt;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.lienquan {
+    float: left;
+    text-align: left;
+    width: 30%;
+}
+
+.lienquan p {
+    font-size: 15pt;
+    margin-top: 0px;
+    padding: 10px 10px;
+    color: #444444;
+}
+
+.lienquan span {
+    color: #7f7f7f;
+}
+
+.lienquan button {
+    border: none;
+    float: right;
+    background-color: #ffffff;
+    margin-right: 10px;
+    color: #4d7bae;
+}
+
+.lienquan hr {
+    border: none;
+    width: 93%;
+    min-height: 2px;
+    margin-top: -4px;
+    background-color: #8c8c8c;
+}
+
+.lienquan .name input {
+    border: none;
+    padding: 10px 10px;
+    margin-left: 5px;
+}
+
+.lienquan textarea {
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    padding: 10px 10px;
+    border: none;
+}
+
+.lienquan .nd {
+    margin-left: 10px;
+    margin-right: 10px;
+}

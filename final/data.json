@@ -1,0 +1,211 @@
+{
+  "catalog": [
+    {
+      "id": 1,
+      "name": "Sách nói",
+      "soluongSP": 1205,
+      "hot": 1
+    },
+    {
+      "id": 2,
+      "name": "Linh dị",
+      "soluongSP": 1002,
+      "hot": 1
+    },
+    {
+      "id": 3,
+      "name": "Kinh doanh",
+      "soluongSP": 1000,
+      "hot": 1
+    },
+    {
+      "id": 4,
+      "name": "Ngôn tình",
+      "soluongSP": 984,
+      "hot": 1
+    },
+    {
+      "id": 5,
+      "name": "Kỹ năng",
+      "soluongSP": 845,
+      "hot": 1
+    },
+    {
+      "id": 6,
+      "name": "Nguyễn S",
+      "soluongSP": 100,
+      "hot": 0
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "id_cata": 1,
+      "title": "Yêu em thật xui xẻo",
+      "tacgia": " Lê Hoàng",
+      "votes": 57,
+      "price": 75,
+      "tomtat": "Nụ cười nước ta vốn <br> thâm, sâu, bền...",
+      "img": "img/bookcontent/1.jpg",
+      "countview": "1,897"
+    },
+    {
+      "id": 3,
+      "id_cata": 1,
+      "title": "1981",
+      "tacgia": " Lê Hoàng",
+      "votes": 60,
+      "price": 75,
+      "tomtat": "Nụ cười nước ta vốn <br> thâm, sâu, bền...",
+      "img": "img/bookcontent/3.jpg",
+      "countview": "1,897"
+    },
+    {
+      "id": 4,
+      "id_cata": 2,
+      "title": "Giết người đưa thư",
+      "tacgia": " Tami Hoag",
+      "votes": 27,
+      "price": 80,
+      "tomtat": "Giết người đưa <br> thư là tác phẩm...",
+      "img": "img/bookcontent/4.jpg",
+      "countview": "1,897"
+    },
+    {
+      "id": 5,
+      "id_cata": 3,
+      "title": "Sào huyệt của những ông trùm",
+      "tacgia": "James B.Stewart",
+      "votes": 58,
+      "price": 65,
+      "tomtat": "Cuốn sách Sào <br> huyệt của những...",
+      "img": "img/bookcontent/5.jpg",
+      "countview": "4,009"
+    },
+    {
+      "id": 6,
+      "id_cata": "1",
+      "title": "Chân trời góc bể (Tập 1)",
+      "tacgia": "Diệp Lạc Vô Tâm",
+      "votes": "",
+      "price": 50,
+      "tomtat": "Nụ cười nước ta vốn <br> thâm, sâu, bền...",
+      "img": "img/bookcontent/6.jpg",
+      "countview": "1,897"
+    },
+    {
+      "id": 7,
+      "id_cata": "1",
+      "title": "Xuất khẩu cười",
+      "tacgia": "Seth Godin",
+      "votes": "",
+      "price": 50,
+      "tomtat": "Nụ cười nước ta vốn <br> thâm, sâu, bền...",
+      "img": "img/bookcontent/2.jpg",
+      "countview": "1,897"
+    },
+    {
+      "id": 8,
+      "id_cata": "1",
+      "title": "Nguyễn Đức Sỹ",
+      "tacgia": "Seth Godin",
+      "votes": "",
+      "price": 50,
+      "tomtat": "Nụ cười nước ta vốn <br> thâm, sâu, bền...",
+      "img": "img/bookcontent/2.jpg",
+      "countview": "1,897"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "total": 100
+    }
+  ],
+  "order": [
+    {
+      "id": 2,
+      "productID": 2,
+      "quantity": 3,
+      "status": "Đang giao hàng",
+      "ngaymua": "10-4-2021",
+      "nameuser": "Nguyễn Đức Sỹ",
+      "sdt": "0123456789",
+      "email": "nguyenducsy08@gmail.com",
+      "place": "20 Tân Thới Nhất Q12 , Hồ Chí Minh ",
+      "total": 265
+    },
+    {
+      "id": 3,
+      "productID": 1,
+      "quantity": 3,
+      "status": "Chưa thanh toán",
+      "ngaymua": "11-4-2021",
+      "nameuser": "Nguyễn Đức Sỹ",
+      "sdt": "0123456789",
+      "email": "nguyenducsy08@gmail.com",
+      "place": "20 Tân Thới Nhất Q12 , Hồ Chí Minh ",
+      "total": 260
+    },
+    {
+      "id": 4,
+      "productID": 3,
+      "quantity": 4,
+      "status": "Chưa thanh toán",
+      "ngaymua": "11-4-2021",
+      "nameuser": "Nguyễn Đức Sỹ",
+      "sdt": "0123456789",
+      "email": "nguyenducsy08@gmail.com",
+      "place": "20 Tân Thới Nhất Q12 , Hồ Chí Minh ",
+      "total": 345
+    },
+    {
+      "id": 5,
+      "productID": 3,
+      "quantity": 2,
+      "status": "Chưa thanh toán",
+      "ngaymua": "13-4-2021",
+      "nameuser": "Nguyễn Đức Sỹ",
+      "sdt": "0123456789",
+      "email": "nguyenducsy08@gmail.com",
+      "place": "20 Tân Thới Nhất Q12 , Hồ Chí Minh ",
+      "total": 185
+    },
+    {
+      "id": 6,
+      "productID": 2,
+      "quantity": 2,
+      "status": "Chưa thanh toán",
+      "ngaymua": "15-3-2021",
+      "nameuser": "Lê Quỳnh Anh",
+      "sdt": "0409245487",
+      "email": "lqanh12@gmail.com",
+      "place": "20 Tân Thới Nhất Q12 , Hồ Chí Minh ",
+      "total": 400
+    },
+    {
+      "id": 7,
+      "productID": 2,
+      "quantity": 1,
+      "status": "Chưa thanh toán",
+      "ngaymua": "17-4-2021",
+      "nameuser": "Nguyễn Đức Sỹ",
+      "sdt": "01234567891",
+      "email": "nguyenducsy08@gmail.com",
+      "place": "20 Tân Thới Nhất Q12 , Hồ Chí Minh ",
+      "total": 110
+    },
+    {
+      "id": 8,
+      "productID": 2,
+      "quantity": 1,
+      "status": "Chưa thanh toán",
+      "ngaymua": "20-4-2021",
+      "nameuser": "Nguyễn Đức Sỹ",
+      "sdt": "01234567891",
+      "email": "nguyenducsy08@gmail.com",
+      "place": "20 Tân Thới Nhất Q12 , Hồ Chí Minh ",
+      "total": 110
+    }
+  ]
+}
